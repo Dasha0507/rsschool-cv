@@ -17,3 +17,17 @@ _I approach the tasks responsibly. I find an approach to any person. I am able t
 - SQL
 - Figma
 ***
+##Education
+####__Belarusian State University of Informatics and Radioelectronics (2019-2023)__
+   - Engineering and psychological support of information technologies
+***
+##Code Examples
+```
+const palindrom = (w) => {
+    w = w.toLowerCase();
+    return w === w.split('').reverse().join();
+}
+```
+***
+##Languages
+- __English -__ B1
