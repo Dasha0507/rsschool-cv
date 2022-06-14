@@ -3,6 +3,7 @@ body {
     margin: 0;
 	font-size: 16px;
 	font-family: 'Fjalla One', sans-serif;
+    background: #FBF1F8;
 }
 
 a {
@@ -35,7 +36,182 @@ textarea {
   margin: 0; /* 2 */
 }
 
+p, h1, span{
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #111;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.7em;
+    color: #111;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .container {
     max-width: 1170px;
 	margin: 0 auto; 
+}
+
+.page_container {
+    max-width: 1170px;
+	margin: 0 auto; 
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.photo_wrapper {
+    width: 282px;
+    height: 365px;
+    background: #FBF1F8;
+    border-radius: 0px 0px 30px 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.photo {
+    width: 256px;
+    height: 341px;
+    background: #F5C1D4;
+    border-radius: 30px;
+    margin: 0px auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.photo img {
+    border-radius: 30px;
+}
+
+.my_name {
+    text-align: center;
+}
+
+.first-part {
+    background: #D9D9D9;
+}
+
+.contacts {
+    margin-top: 60px;
+}
+
+.contact_info {
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px 10px;
+}
+
+.contact_info p {
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+.contact_info a {
+    margin-left: 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.skills {
+    margin-top: 45px;
+}
+
+.list_skills {
+ padding: 0;
+}
+
+.circle {
+    border: 0.7px solid #111;
+    border-radius: 50%;
+    margin-right:  20px;
+    margin-left:  15px;
+    width: 20px;
+    height: 20px;
+}
+
+.flex {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.language{
+    margin: 45px 0 20px 0;
+}
+
+.language p {
+    margin-left: 15px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.about_me {
+    text-align: center;
+}
+
+.education {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.univer {
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.projects {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.year {
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.projects_list{
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background: #fff;
+}
+
+.link {
+    margin-left: 15px;
+    font-size: 1.3em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer_year {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.flex_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
